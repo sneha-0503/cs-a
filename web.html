@@ -25,3 +25,38 @@
   <script src="script.js"></script>
 </body>
 </html>
+function orderFood(item) {
+    alert(item + " ordered successfully! 🍔");
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fefefe;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.item img {
+    width: 100%;
+    border-radius: 10px;
+}
+button {
+    background-color: #ff5722;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #e64a19;
+}
